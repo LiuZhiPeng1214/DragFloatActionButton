@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         app:fabSize="mini"
         android:clickable="true"
-        app:layout_anchorGravity="bottom|end|right"
+        android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
         app:borderWidth="0dp"/>
 

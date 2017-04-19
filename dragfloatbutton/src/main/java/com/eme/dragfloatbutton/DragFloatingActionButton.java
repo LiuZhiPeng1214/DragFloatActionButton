@@ -73,8 +73,7 @@ public class DragFloatingActionButton extends FloatingActionButton {
                 //计算手指移动了多少
                 int dx = rawX -lastX;
                 int dy = rawY -lastY;
-                Log.e("dy",dy+"");
-                Log.e("lasty",lastY+"");
+
                 int l = getLeft() + dx;
                 int b = getBottom() + dy;
                 int r = getRight() + dx;
